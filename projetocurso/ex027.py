@@ -1,0 +1,5 @@
+nome = input('Digite seu nome completo:.. ')
+desp = nome.split()
+contagem = int(len(desp))
+print('Primeiro nome:.. {}'.format(desp[0]))
+print('Ultimo nome:.. {}'.format(desp[contagem -1]))
